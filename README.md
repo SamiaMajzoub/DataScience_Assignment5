@@ -5,7 +5,7 @@ Methedology:
 We first scraped https://www.ebay.com/globaldeals/tech and collected the following info: Timestamp, Title, Price, Original_price,Shipping, Item_url
 
 Then after collecting thet data it was pushed to github for automation. The website was scraped every 3 hours using Github Actions. It was scraped from 2025-03-19 17:19:23 to 2025-03-23 12:26:28 (approx. 5 days). 
-
+The csv file that was cleaned had 3419 rows of data (anything new was because I didn't stop the automation before cleaning, the analysis doesn't include the data after 1pm )
 
 After that, data cleaning took place. 
     - I removed the US $, $ and , from Price and Original_price.
