@@ -23,7 +23,7 @@ url = "https://www.ebay.com/globaldeals/tech"
 
 def scrape_ebay_deals():
     driver.get(url)
-    time.sleep(5)  
+    time.sleep(15)  
 
     # Scroll down
     scroll_pause_time = 2
